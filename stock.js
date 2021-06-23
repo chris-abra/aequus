@@ -3,7 +3,7 @@ $(document).ready(function() {
     $.getScript('http://ir.stockpr.com/service/quote_jsonp?symbol=AQSZF&jsonp=quote_search2');*/
     
     /*$.ajax({
-        url: 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=aqs.v&interval=15min&apikey=BTL151VQI1RRPNOQ',
+        url: 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=aqs.v&interval=15min&apikey=BAKR3USDB5PIKYFQ',
         success: function(data) {
             var dataKey = 'Time Series (15min)';
             if(typeof data !== 'object' || !data[dataKey]) { return; }
@@ -14,7 +14,7 @@ $(document).ready(function() {
     });*/
     
         $.ajax({
-            url: 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aqs.v&apikey=BTL151VQI1RRPNOQ',
+            url: 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=aqs.v&apikey=BAKR3USDB5PIKYFQ',
             success: function(data) {
                 var dataKey = 'Time Series (Daily)';
                 if(typeof data !== 'object' || !data[dataKey]) { return; }
@@ -33,7 +33,7 @@ $(document).ready(function() {
         });
     
     /*$.ajax({
-        url: 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=AQSZF&interval=15min&apikey=BTL151VQI1RRPNOQ',
+        url: 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=AQSZF&interval=15min&apikey=BAKR3USDB5PIKYFQ',
         success: function(data) {
             var dataKey = 'Time Series (15min)';
             if(typeof data !== 'object' || !data[dataKey]) { return; }
@@ -44,7 +44,7 @@ $(document).ready(function() {
     });*/
 
     $.ajax({
-        url: 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AQSZF&apikey=BTL151VQI1RRPNOQ',
+        url: 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AQSZF&apikey=BAKR3USDB5PIKYFQ',
         success: function(data) {
             var dataKey = 'Time Series (Daily)';
             if(typeof data !== 'object' || !data[dataKey]) { return; }
