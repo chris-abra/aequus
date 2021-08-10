@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	/*$.getScript('http://ir.stockpr.com/service/quote_jsonp?symbol=aqs.v&jsonp=quote_search');
-    $.getScript('http://ir.stockpr.com/service/quote_jsonp?symbol=AQSZF&jsonp=quote_search2');*/
     
     /*$.ajax({
         url: 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=aqs.v&interval=15min&apikey=BAKR3USDB5PIKYFQ',
